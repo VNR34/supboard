@@ -1,30 +1,102 @@
-.main {
-}
 .info {
+    background-image: url(../images/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
-.container {
-}
-.info__inner {
+.info::before {
+    content: '';
+    position: absolute;
+    height: 180px;
+    background-color: #262c27;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(-180px);
+    z-index: 1;
 }
 .info__top {
+    display: flex;
+    gap: 80px;
+    padding-top: 120px;
+    margin-bottom: 75vh;    //2*
 }
 .info__top-text {
+    padding-top: 240px;
+    width: 290px;
+    color: #ffffff;
+    position: relative;
+}
+.info__top-text-one {
+    padding-bottom: 125px;  //1*
+}
+.info__top-text-two {
+    border-bottom: 1px solid #ffffff;
 }
 .video-btn {
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    span {
+        padding-top: 12px;
+        display: block;
+        color: #ffffff;
+    }
+    &:hover {
+        path {
+            transition: ease 0.5s;
+            fill: #b9c400;
+        }
+        circle {
+            transition: ease 0.5s;
+            stroke: #b9c400;
+        }
+    }
 }
 .info__btn {
+    bottom: 0;
+    right: 0;
 }
 .info__img {
+    position: relative;
+    z-index: 5;
 }
 .info__specs {
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    color: #FFFFFF;
+    padding-bottom: 50px;
 }
 .info__specs-title {
+    font-family: 'Comfortaa';
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 67px;
+    width: 250px;
+    letter-spacing: 3px;
 }
 .info__specs-list {
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    padding: 30px 0;
+    width: 570px;
+    font-weight: 700;
 }
 .info__specs-item {
+    margin-bottom: 15px;
+    display: flex;
+    gap: 25px;
 }
 .info__specs-capciomt {
+    width: 190px;
 }
 .info__specs-text {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+//1* - этим св-ом задали отступ от кнопки снизу если изменится кол-во текста, чтобы не наехать на нее
+//2* - отступ задали в относительных единицах (в маете 560рх) т.к. высрта мониторов разная

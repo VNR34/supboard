@@ -14,7 +14,8 @@ a {
 ul,
 ol,
 li {
-    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 img {
     vertical-align: top;
@@ -43,5 +44,6 @@ html, body {
 
 @import 'header';
 @import 'main';
-
+@import 'buy';
+@import 'technology';
 

@@ -5,6 +5,7 @@
     background-position: center;
     min-height: 100vh;
     position: relative;
+    margin-bottom: 175px;
 }
 .header::before {
     content: '';
@@ -17,7 +18,7 @@
     left: 0;
     right: 0;
     height: 456px;
-    transform: translateY(30%);
+    transform: translateY(45%);
     z-index: 2;
 }
 .header::after {
@@ -31,7 +32,7 @@
     left: 0;
     right: 0;
     height: 456px;
-    transform: translateY(80%) rotate(180deg);
+    transform: translateY(95%) rotate(180deg);
     z-index: 3;
 }
 .header__top {
@@ -75,7 +76,7 @@
     display: flex;
     justify-content: flex-end;
     position: relative;
-    padding-top: 205px;
+    padding-top: 250px;
 }
 .header__content-box {
     max-width: 550px;
@@ -114,12 +115,12 @@
 .header__decor-text--one {
     z-index: 1;
     right: 145px;
-    bottom: 140px;
+    bottom: 75px;
 }
 .header__decor-text--two {
     z-index: 4;
     left: 265px;
-    bottom: 0;
+    bottom: -65px;
 }
 .header__decor-text--three {
     max-width: 360px;
@@ -130,5 +131,5 @@
     text-align: center;
     right: 145px;
     z-index: 4;
-    bottom: 25px;
+    bottom: -40px;
 }

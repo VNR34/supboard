@@ -1,0 +1,69 @@
+.technology {
+    margin: 150px 0;
+}
+.technology__top {
+    background-image: url(../images/technology-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.technology__top-inner {
+    position: relative;
+    min-height: 110vh;
+}
+.technology__btn {
+    top: 50vh;
+    right: 350px;
+}
+.technology__top-box {
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+    
+}
+.technology__title {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 67px;
+    text-transform: uppercase;
+    width: 470px;
+    margin-bottom: 62px;
+}
+.technology__list {
+    padding-left: 24px;
+}
+.technology__list-item {
+    padding-left: 24px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+.gallery {
+}
+.gallery__inner {
+}
+.gallery__box {
+    display: flex;
+    gap: 68px;
+    margin-top: 115px;
+}
+.gallery__text {
+    line-height: 120%;
+    width: 350px;
+}
+.gallery__mini {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 28px;
+}
+.gallery__mini-img-1 {
+  
+}
+.galery__max {
+}
+.gallery__max-img {
+}
+.gallery__max-text {
+}

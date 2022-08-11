@@ -1,0 +1,65 @@
+.buy {
+    padding-top: 150px;
+}
+.buy__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buy__title {
+    width: 502px;
+    font-family: 'Comfortaa';
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 67px;
+    color: #0093A1;
+}
+.buy__descr {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+}
+.buy__item {
+    width: 255px;
+    &:nth-child(1) {
+        h3 {
+            color: #0093A1;
+        }
+    }
+}
+.buy__item-subtitle {
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+.buy__price {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 285px;
+    &:hover {
+        transition: ease 0.5s;
+        transform: scale(1.25);
+    }
+}
+.buy__btn {
+    width: 484px;
+    height: 80px;
+    font-family: 'Comfortaa';
+    text-transform: uppercase;
+    background-color: inherit;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #0093A1;
+    border: 2px solid #0093A1;
+    &:hover {
+        transition: ease 0.5s;
+        color: #262c27;
+        background-color: #b9c400;
+        border: none;
+    }
+}
+
