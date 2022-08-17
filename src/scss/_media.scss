@@ -1,0 +1,35 @@
+@media (max-width: 1200px) {
+    .header__top {
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 992px) {
+    .header__top {
+        justify-content: center;
+    }
+    .header__decor-text {
+        position: static;
+    }
+    .header__content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__top {
+        justify-content: flex-start;
+    }
+    .header__content {
+        display: inline-block;
+        padding-top: 0;
+        transform: translateX(35%);
+    }
+    .header__text, .header__title {
+        color: #262c26;
+    }
+    .header__decor-text {
+        text-align: center;
+    }
+}

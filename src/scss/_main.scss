@@ -44,6 +44,10 @@
         padding-top: 12px;
         display: block;
         color: #ffffff;
+        &:hover {
+            transition: ease 0.3s;
+            color: #0093a1;
+        }
     }
     &:hover {
         path {

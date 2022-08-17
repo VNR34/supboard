@@ -19,6 +19,7 @@ li {
 }
 img {
     vertical-align: top;
+    object-fit: cover;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: inherit;
@@ -46,4 +47,6 @@ html, body {
 @import 'main';
 @import 'buy';
 @import 'technology';
+@import 'footer';
+@import 'media';
 
